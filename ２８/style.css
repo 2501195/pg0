@@ -107,11 +107,11 @@ header{
     text-align: center;
     font-family: serif;
     background: linear-gradient(0deg, #82dcff, #f6f9ff);
-    padding: 0.7%;
-    height: 58px;
+    padding: 10px;
+    height: 52px;
 }
 .titlediv h1{
-    margin-top: -8px;
+    margin-top: -7px;
     font-size: 3em;
 }
 
@@ -121,19 +121,24 @@ header{
     background: linear-gradient(0deg, #82dcff, #f6f9ff);
     width: 35%;
     padding: 20px;
-    margin-top: 180px;
+    margin-top: 160px;
     margin-right: 30px;
-    box-shadow: 0 0 8px #767676;
+    box-shadow: 0 0 12px #5571cd;
 }
 #myimage{
     height: 60%;
     width: 30%;
     margin: 20px;
-    position: fixed;
+    position: absolute;
     right: 14%;
     top: 20%;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+}
+#handurl{
+    position: absolute;
+    right: 290px;
+    text-decoration: none;
+    color: #41fbfe;
 }
 
 #ai_iland{
@@ -187,34 +192,24 @@ header{
     bottom: 10%;
     margin-right: 40%;
 }
-#ra-men{
-    width: 300px;
-    height: 150px; 
-    overflow: hidden;
-    position: relative;
-}
-#ra-men img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-}
 #light{
+    width: 260px;
+    height: 220px;
     position: absolute;
-    bottom: -50%;
-    left: 30px;
+    right: 10px;
+    top: 800px;
 }
-#strong{
-    position: absolute;
-    bottom: -50%;
-    right: 30px;
-}
-.fooddiv img{
 
-}
+
 .fooddiv{
     margin-top: 40%;
+}
+.fooddiv a{
+    position: absolute;
+    right: 20px;
+    top: 995px;
+    text-decoration: none;
+    color: #b8b2b2;
 }
 .fooddiv iframe{
     padding: 0;
@@ -305,6 +300,7 @@ header{
 .mangadiv img{
     height: 420px;
     width: 280px;
+    box-shadow: 0 0 12px #2bfff1;
 }
 .mangadiv p{
     text-align: center;
@@ -393,4 +389,72 @@ header{
 #ghiblidiv h5 a{
     color: #e9120e;
     text-decoration: none;
+}
+
+#ra-mendiv{
+    display: flex;
+}
+.ra-menimgdiv{
+    padding: 0;
+    width: 500px;
+    text-align: center;
+}
+.ra-menimgdiv img{
+    width: 500px;
+    height: 520px;
+    box-shadow: 0 0 12px #ff4a74;
+}
+.ra-menimgdiv a{
+    text-decoration: none;
+    color: #ff4a74;
+    text-align: center;
+}
+.ra-mensidediv{
+    background: linear-gradient(16deg, #eb2972 10%, #cc7906 90%);
+    padding: 50px;
+    height: 280px;
+    margin-top: 70px;
+    border-radius: 10px;
+    border: 7px solid #e9120e;
+}
+
+#sweets h1{
+    background: linear-gradient(16deg, #2974eb 10%, #06cc6f 90%);
+    width: 1000px;
+    border-radius: 5px;
+    border: 4px ridge #0c0a4b;
+    padding: 10px;
+}
+.sweetsimgdiv img{
+    width: 250px;
+    height: 250px;
+}
+.sweetsimgdiv{
+    display: flex;
+    gap: 80px;
+    height: 500px;
+    width: 630px;
+}
+#ramuneurl{
+    position: absolute;
+    left: 400px;
+    top: 1000px;
+    text-decoration: none;
+    color: #00cfff;
+}
+#hottokuurl{
+    position: absolute;
+    left: 710px;
+    top: 1020px;
+    text-decoration: none;
+    color: #00cfff;
+}
+#sweetsdetail {
+    background: linear-gradient(16deg, #ebe429 10%, #cc3a06 90%);
+    border-radius: 10px;
+    border: 7px solid #ff783a;
+    width: 500px;
+    position: absolute;
+    right: 50px;
+    top: 750px;
 }
