@@ -380,6 +380,7 @@ header{
     border: 5px ridge #338144;
     box-shadow: 0 0 6px #555;
     width: 77%;
+    height: 30%;
 }
 #ghiblidiv h5{
     position: absolute;
@@ -411,6 +412,7 @@ header{
 }
 .ra-mensidediv{
     background: linear-gradient(16deg, #eb2972 10%, #cc7906 90%);
+    color: #fff;
     padding: 50px;
     height: 280px;
     margin-top: 70px;
@@ -420,6 +422,7 @@ header{
 
 #sweets h1{
     background: linear-gradient(16deg, #2974eb 10%, #06cc6f 90%);
+    color: #fff;
     width: 1000px;
     border-radius: 5px;
     border: 4px ridge #0c0a4b;
@@ -451,6 +454,7 @@ header{
 }
 #sweetsdetail {
     background: linear-gradient(16deg, #ebe429 10%, #cc3a06 90%);
+    color: #fff;
     border-radius: 10px;
     border: 7px solid #ff783a;
     width: 500px;
